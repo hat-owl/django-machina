@@ -25,7 +25,7 @@ The first thing to do is to add ``ckeditor`` in our ``INSTALLED_APPS`` setting:
 
 .. code-block:: python
 
-  INSTALLED_APS = (
+  INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',

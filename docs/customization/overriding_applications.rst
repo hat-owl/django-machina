@@ -128,11 +128,11 @@ Add the local application to your INSTALLED_APPS
 
 Finally you have to tell Django to use your overridden application instead of the django-machina's
 original application. You can do this by replacing the machina's original application in the
-``INSTALLED_APS`` setting by the application you just created:
+``INSTALLED_APPS`` setting by the application you just created:
 
 .. code-block:: python
 
-  INSTALLED_APS = (
+  INSTALLED_APPS = (
       'django.contrib.auth',
       'django.contrib.contenttypes',
       'django.contrib.sessions',

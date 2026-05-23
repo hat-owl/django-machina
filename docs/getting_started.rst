@@ -45,7 +45,7 @@ includes the machina's dependencies and the machina's own applications as follow
 
 .. code-block:: python
 
-    INSTALLED_APS = (
+    INSTALLED_APPS = (
         'django.contrib.auth',
         'django.contrib.contenttypes',
         'django.contrib.sessions',
